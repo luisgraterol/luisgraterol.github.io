@@ -87,18 +87,26 @@ li:hover{
 /* Animations */
 @keyframes slide {
     from {
-        transform: translatex(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
     }
     to {
-        transform: translatex(180px);
+        -webkit-transform: translateX(180px);
+        -ms-transform: translateX(180px);
+        transform: translateX(180px);
     }
 }
 
 @keyframes appear {
     from {
+        -webkit-opacity: 0;
+        -ms-opacity: 0;
         opacity: 0;
     }
     to {
+        -webkit-opacity: 1;
+        -ms-opacity: 1;
         opacity: 1;
     }
 }
