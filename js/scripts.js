@@ -4,4 +4,15 @@ $(document).ready(function() {
     setTimeout(function(){
         $(".title").html(title);
     },2500);
+
+    // Setup
+    $.ajaxSetup({ cache: false });
+
+    var colors = [
+        "#B55348",
+        "#DC7633",
+        "#45669B"
+    ]
+
+    $("body").css("background-color", colors[Math.floor(Math.random() * (colors.length))]);
 });
