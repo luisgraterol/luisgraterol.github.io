@@ -11,7 +11,7 @@ $(document).ready(function() {
     var colors = [
         "#B55348",
         "#DC7633",
-        "#45669B"
+        "#325184"
     ]
 
     $("body").css("background-color", colors[Math.floor(Math.random() * (colors.length))]);
