@@ -9,6 +9,7 @@ html, body {
 
     font-family: 'Roboto', sans-serif;
     transition: background-color 1.2s ease 0s;
+    animation: appear .5s ease-in 0s 1;
 }
 
 header {
